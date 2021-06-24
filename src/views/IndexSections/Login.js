@@ -73,14 +73,14 @@ class Login extends React.Component {
                   <Button color="success" to="/login-page" tag={Link}>
                     Login Page
                   </Button>
-                  <Button
+                  {/* <Button
                     className="btn-white"
                     color="default"
                     to="/register-page"
                     tag={Link}
                   >
                     Register Page
-                  </Button>
+                  </Button> */}
                 </div>
               </Col>
               <Col className="mb-lg-auto" lg="5">
