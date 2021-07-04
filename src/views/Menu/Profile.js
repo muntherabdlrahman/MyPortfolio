@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Card, Container, Row, Col } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
@@ -85,7 +85,7 @@ class Profile extends React.Component {
                       lg="4"
                     >
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
+                        {/* <Button
                           className="mr-4"
                           color="info"
                           href="#pablo"
@@ -93,8 +93,8 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Connect
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="float-right"
                           color="default"
                           href="#pablo"
@@ -102,7 +102,7 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Message
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
@@ -147,9 +147,9 @@ class Profile extends React.Component {
                         An electrical engineer, having graduated from the Faculty of Engineering at<br/> the Hashemite University. <br/> 
                         My passion for computers, networks and webpages gave me strong desire for learning everything new related to these technologies also, I am a keen interpersonal communicator and continually improve my technical skills, which are integral to my inherent team-player qualities.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
-                        </a>
+                        </a> */}
                       </Col>
                     </Row>
                   </div>

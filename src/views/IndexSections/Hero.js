@@ -55,11 +55,10 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                    My work design for last 2 courses 101, 201
                     </p>
                     <div className="btn-wrapper mt-5">
-                      <Button
+                      {/* <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -69,8 +68,8 @@ class Hero extends React.Component {
                           <i className="ni ni-cloud-download-95" />
                         </span>
                         <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
-                      <Button
+                      </Button>{" "} */}
+                      {/* <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
                         href="https://github.com/creativetimofficial/argon-design-system-react"
@@ -84,25 +83,20 @@ class Hero extends React.Component {
                           <span className="text-warning mr-1">Star us</span>
                           on Github
                         </span>
-                      </Button>
+                      </Button> */}
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        proudly coded by Munther Abdlrahman
                       </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={creative}
-                      />
+                     
                     </div>
                   </Col>
                 </Row>
               </div>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -116,7 +110,7 @@ class Hero extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
           </section>
         </div>
       </>
